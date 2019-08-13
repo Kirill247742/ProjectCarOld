@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">AvtoShop.by</a>
+            <a class="navbar-brand" href="#">AutoShop.by</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
