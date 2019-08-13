@@ -42,11 +42,11 @@
     </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="jquery.min.js"></script>
 <script src="bootstrap.min.js"></script>
 
 
-<br></br>
+<br></br><br></br>
 <div class="container">
 
     <h2 class="sub-header">SELLERS LIST</h2>

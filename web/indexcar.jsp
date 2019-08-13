@@ -45,7 +45,7 @@
     </div>
 </div>
 
-<br></br>
+<br></br><br></br>
 <div class="container">
 
     <h2 class="sub-header">CARS LIST</h2>
@@ -67,7 +67,7 @@
                 <td>${car.brand}</td>
                 <td>${car.model}</td>
                 <td>${car.colour}</td>
-                <td><a href='<c:url value="/detailcar?id=${car.id}" />'>DETAIL</a></td>
+                <td><a href='<c:url value="/detailcar?id=${car.id}" />'>DETAILS</a></td>
                 <td><a href='<c:url value="/editcar?id=${car.id}" />'>EDIT</a></td>
                 <td>
                     <form method="post" action='<c:url value="/deletecar" />' style="display:inline;">

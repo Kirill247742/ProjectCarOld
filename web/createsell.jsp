@@ -48,9 +48,9 @@
         <h2 class="form-signin-heading">&nbsp;&nbsp;&nbsp;&nbsp;Please enter date</h2>
         <input name="name" type="text" class="form-control" placeholder="Name" required autofocus>
         <input name="gender" type="text" class="form-control" placeholder="Gender" required>
-        <input name="age" type="number" min="18" class="form-control" placeholder="Age" required>
+        <input name="age" type="number" min="18" max="110" class="form-control" placeholder="Age" required>
         <input name="email" type="text" class="form-control" placeholder="Email" required>
-        <input name="telnumber" type="number" min="250000000"  max="449999999"class="form-control" placeholder="Telnumber" required>
+        <input name="telnumber" type="number" min="250000000"  max="449999999" class="form-control" placeholder="Telnumber" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit" value="Save">Save</button>
     </form>
 

@@ -43,7 +43,7 @@
     </div>
 </div>
 
-<br></br>
+<br></br><br></br>
 <div class="container">
 
     <h2 class="sub-header">DETAILS</h2>
@@ -51,8 +51,6 @@
         <table class="table table-striped">
             <thead>
             <tr>
-                <th>SELLER_ID</th>
-                <th>LOCATION_ID</th>
                 <th>BRAND</th>
                 <th>MODEL</th>
                 <th>AGE</th>
@@ -64,15 +62,13 @@
             </thead>
             <tbody>
             <tr>
-                    <td>${car.seller_id}</td>
-                    <td>${car.location_id}</td>
                     <td>${car.brand}</td>
                     <td>${car.model}</td>
                     <td>${car.age}</td>
                     <td>${car.mileage}</td>
                     <td>${car.price}</td>
                     <td>${car.colour}</td>
-                    <td><a href='<c:url value="/detailsell?id=${car.seller_id}&car_id=${car.id}&location_id=${car.location_id}" />'>SELLER DETAILS</a></td>
+                    <td><a href='<c:url value="/detailsell?id=${car.seller_id}&car_id=${car.id}&location_id=${car.location_id}" />'>DETAILS</a></td>
                     <td><p><a href='<c:url value="/car" />'>BACK</a></p></td>
             </tr>
             </tbody>

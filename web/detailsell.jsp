@@ -43,7 +43,7 @@
     </div>
 </div>
 
-<br></br>
+<br></br><br></br>
 <div class="container">
 
     <h2 class="sub-header">DETAILS</h2>

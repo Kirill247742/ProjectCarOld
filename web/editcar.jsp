@@ -46,13 +46,13 @@
 
     <form class="form-signin" role="form" method="post">
         <h2 class="form-signin-heading">&nbsp;&nbsp;&nbsp;&nbsp;Please enter date</h2>
-        <input name="seller_id" value="${car.seller_id}" type="number" min="1" class="form-control" placeholder="Seller_id" required autofocus>
-        <input name="location_id"  value="${car.location_id}"type="number" min="1" class="form-control" placeholder="Location_id" required>
+        <input name="seller_id" value="${car.seller_id}" type="number" min="1" max="8999999999" class="form-control" placeholder="Seller_id" required autofocus>
+        <input name="location_id"  value="${car.location_id}"type="number" min="1" max="8999999999" class="form-control" placeholder="Location_id" required>
         <input name="model"  value="${car.model}"type="text"class="form-control" placeholder="Model" required>
         <input name="brand"  value="${car.brand}"type="text" class="form-control" placeholder="Brand" required>
-        <input name="age"  value="${car.age}"type="number" min="0" class="form-control" placeholder="Age" required>
-        <input name="mileage"  value="${car.mileage}"type="number" min="0" class="form-control" placeholder="Milege" required>
-        <input name="price"  value="${car.price}"type="number" min="1" class="form-control" placeholder="Price" required>
+        <input name="age"  value="${car.age}"type="number" min="0" max="110" class="form-control" placeholder="Age" required>
+        <input name="mileage"  value="${car.mileage}"type="number" min="0" max="8999999999" class="form-control" placeholder="Milege" required>
+        <input name="price"  value="${car.price}"type="number" min="0" max="8999999999" class="form-control" placeholder="Price" required>
         <input name="colour"  value="${car.colour}"type="text" class="form-control" placeholder="Colour" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit" value="Save">Sand</button>
     </form>
